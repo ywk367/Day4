@@ -1,0 +1,61 @@
+count = "one"
+food = "apple"
+print("I ate %s %s" % (count,food))
+
+# format (예 :  %s)
+# 문자열(문장) : %s
+# 문자 : %c
+# 정수 : %d
+# 소수 : %f
+# n번째 자리까지 표현 : "%.nf"
+# 8진수 : %o
+# 16진수 : %x
+# % : %%
+
+print("I ate {0} {1}".format(count, food))
+
+print(f'I ate {count} {food}')
+
+# key 값 문자 개수세기
+
+strVal = "aaaabbbbcccc"
+
+print(strVal.count('a'))
+
+# key 가 어디있는지 알려주기
+print(strVal.find('b'))
+print(strVal.find('d'))
+
+# 특정문자를 사이에 집어넣기
+print(",".join(strVal))
+
+# 문자열 전체를 대문자로 만들기
+print(strVal.upper())
+
+# 문자열 전체를 소문자로 만들기
+print(strVal.upper().lower())
+
+# 좌측 공백 지우기
+strVal = " hi "
+print(strVal.lstrip())
+
+# 우측 공백 지우기
+print(strVal.rstrip())
+
+#양측 공백 지우기
+print(strVal.strip())
+
+# 문자열 바꾸기
+strVal = "Life is too short"
+print(strVal.replace("Life", "Your leg"))
+
+# 문자열 나누기
+print(strVal.split(" "))
+
+# (양쪽으로)문자열 나누기
+strVal = "Life is"
+
+left, mid, right = strVal.partition(" ")
+print(left)
+print(mid)
+print(right)
