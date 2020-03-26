@@ -1,0 +1,26 @@
+s1 = set([1,2,3,4,5])
+s2 = set([5,6,7,8,9])
+
+#교집합
+print(s1 & s2)
+s1.intersection(s2)
+
+#합집합
+print(s1 | s2)
+s1.union(s2)
+
+#차집합
+print(s1 - s2)
+s1.difference(s2)
+
+#한 개의 값만 추가하고 싶을때
+s1.add(9)
+print(s1)
+
+#여러 개의 값을 추가하고 싶을 때
+s1.update([10,11,12])
+print(s1)
+
+#특정 key 값을 제거하고 싶을 때
+s1.remove(2)
+print(s1)
