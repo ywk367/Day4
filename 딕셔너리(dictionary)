@@ -1,0 +1,13 @@
+dix = { 'name' : 'YewonKim', 'birth' : '061124', 'gender' : 'female'}
+
+print(dic['name'])
+
+for key in dic.keys():
+  print(dix[keys=])
+
+print(dic.items())
+
+print('name' in dic)
+
+dic.clear()
+print(dic)
