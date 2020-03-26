@@ -1,0 +1,5 @@
+from math import pi
+
+area_circle = lambda radius : radius ** 2 * pi
+
+print(area_circle(5))
